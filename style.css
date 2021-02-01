@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: lightblue;
+    color: white;
+    font-weight: bold;
+  }
+  .container {
+    display: flex;
+    margin: 10vh 10vw;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, .4);
+  }
+  
+  .div-col-1 {
+    flex: 0 0 60%;
+    max-width: 60%;
+  }
+  .div-col-2 {
+    flex: 0 0 40%;
+    max-width: 40%;
+  }
+  .humidity, .city, .pressure, .speed, .deg, .description, .tempr {
+    font-size: 30px;
+    margin: 15px 0;
+  }
+
+  .city {
+    font-size: 50px;
+  }
+  .icon img {
+    height: 150px;
+    filter: drop-shadow(10px 10px 15px yellow);
+  }
+  
